@@ -19,8 +19,6 @@ body {
     background-color: #fff;
 }
 
-   
-
  nav{
     padding: 10px 30px;
     display: flex;
@@ -53,7 +51,6 @@ img{
 }
 
 .me{
-    background-color: #3498db;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -62,6 +59,7 @@ img{
 }
 
 .me .container{
+    background-color: #3498db;
     flex-grow: 1;
     max-width: 600px;
     display: flex;
@@ -88,7 +86,8 @@ img{
     max-width: 100%;
     max-height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 12px;
+    margin: 10px;
 }
 
 .courses h1{
@@ -185,4 +184,5 @@ footer {
     color: #fff;
     font-size: x-large;
     font-weight: bold;
+    padding: 15px;
 }   
