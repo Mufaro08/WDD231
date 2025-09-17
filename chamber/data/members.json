@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Tech Solutions Ltd",
+    "address": "12 Jason Moyo Avenue, Harare",
+    "phone": "+263 242 123456",
+    "website": "https://www.techsolutions.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 3,
+    "info": "Leaders in IT consultancy and managed services."
+  },
+  {
+    "name": "Green Farms Zimbabwe",
+    "address": "45 Borrowdale Road, Harare",
+    "phone": "+263 772 987654",
+    "website": "https://www.greenfarms.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 2,
+    "info": "Sustainable agriculture and food production."
+  },
+  {
+    "name": "ZimBank",
+    "address": "1st Street & Samora Machel, Harare",
+    "phone": "+263 242 654321",
+    "website": "https://www.zimbank.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 3,
+    "info": "Your trusted financial partner."
+  },
+  {
+    "name": "Sunrise Hardware",
+    "address": "10 Julius Nyerere Way, Harare",
+    "phone": "+263 242 765432",
+    "website": "https://www.sunrisehardware.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 1,
+    "info": "Supplying building materials since 1990."
+  },
+  {
+    "name": "Global Logistics",
+    "address": "23 Mutare Road, Msasa, Harare",
+    "phone": "+263 772 345678",
+    "website": "https://www.globallogistics.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 2,
+    "info": "Reliable freight and transport services."
+  },
+  {
+    "name": "Elite Motors",
+    "address": "Sam Levy’s Village, Borrowdale, Harare",
+    "phone": "+263 242 876543",
+    "website": "https://www.elitemotors.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 3,
+    "info": "Premium car dealership and service center."
+  },
+  {
+    "name": "HealthCare Plus",
+    "address": "Avondale Shopping Centre, Harare",
+    "phone": "+263 772 112233",
+    "website": "https://www.healthcareplus.co.zw",
+    "image": "logo.webp",
+    "membershipLevel": 1,
+    "info": "Private healthcare services at affordable prices."
+  }
+]

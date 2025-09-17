@@ -10,17 +10,116 @@
     <meta property="og:description" content="This is a Directory page for he chamber of Commerce">
     <meta property="og:url" content="https://mufaro08.github.io/WDD231/chamber/directory.html">
     <meta property="og:image" content="/favicon/city_hall.jpg">
+    <meta property="og:image:width" content="398">
+    <meta property="og:image:height" content="299x">
     <meta property="og:type" content="website">
     <meta property="twitter:title" content="Directory">
     <meta property="twitter:description" content="This is a Directory page for he chamber of Commerce">
     <meta property="twitter:url" content="https://mufaro08.github.io/WDD231/chamber/directory.html">
-    <meta property="twitter:image" content="/favicon/city_hall.jpg">
+    <meta property="twitter:image" content="./favicon/city_hall.jpg">
     <meta property="twitter:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="./scripts/script.js" defer></script>
+
     <title>Directory</title>
 
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header>
+        <div class="container1">
+            <div class="logo">
+            <img src="./images/city_hall.jpg" alt="Harare Chamber of Commerce Logo">
+            <h1>Harare Chamber of Commerce</h1>
+            </div>
+
+            <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+            </div>
+
+            <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Welcome to the Harare Chamber of Commerce</h1>
+                <p>Connecting businesses, fostering growth, and building a stronger Harare together.</p>
+                <a href="#about">Learn More</a>
+            </div>
+        </section>
+
+        <section class="home">
+            <h2 class="home-heading">Home</h2>
+            <div class="home-container">
+                
+                <div class="home-column">
+                <h3>Events</h3>
+                <p>Upcoming business events will appear here.</p>
+                </div>
+
+                <div class="home-column">
+                <h3>Current Weather</h3>
+                <p>Weather data can be integrated here.</p>
+                </div>
+
+                <div class="home-column">
+                <h3>Weather Forecast</h3>
+                <p>Forecast for the coming days.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="members">
+            <h2>Our Members</h2>
+            
+            <div class="view-toggle">
+                <button id="grid-view">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
+
+            <div id="members-container" class="grid"></div>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+      <div class="footer-column">
+        <strong>Harare Chamber of Commerce</strong>
+        <p> 155 Fife Street, Harare, Zimbabwe</p>
+        <p>info@hararecc.com</p>
+        <p>+263 778 684 558</p>
+      </div>
+
+      <div class="footer-column">
+        <div class="social-links">
+          <a href="https://youtube.com" ><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="www.linkedin.com/in/mufaro-maz-3890807a"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <p>WDD231 Class Project</p>
+        <p id="dynamic1"></p>
+        <p id="dynamic2"></p>
+        <p id="dynamic3"></p>
+      </div>
+    </div>
+    </footer>
     
 </body>
 </html>
